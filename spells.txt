@@ -1,0 +1,4984 @@
+<<< New Spell Forged >>>
+  Name: Acid Splash
+  Classes: Artificer, Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blade Ward
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: Self
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Booming Blade
+  Classes: Artificer, Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: Self (5-foot radius)
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Chill Touch
+  Classes: Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: 120 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Control Flames
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Instantaneous or 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Create Bonfire
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dancing Lights
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Decompose (HB)
+  Classes: Cleric
+  School: Necromancy
+  Range: Touch
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Druidcraft
+  Classes: Druid
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Eldritch Blast
+  Classes: Warlock
+  School: Evocation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Encode Thoughts
+  Classes: Wizard
+  School: Enchantment
+  Range: Self
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fire Bolt
+  Classes: Artificer, Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Friends
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Frostbite
+  Classes: Artificer, Druid, Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Green-Flame Blade
+  Classes: Artificer, Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: Self (5-foot radius)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Guidance
+  Classes: Artificer, Cleric, Druid
+  School: Divination
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gust
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hand of Radiance (UA)
+  Classes: Cleric
+  School: Evocation
+  Range: 5 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Infestation
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Light
+  Classes: Artificer, Bard, Cleric, Sorcerer, Wizard
+  School: Evocation
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Lightning Lure
+  Classes: Artificer, Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: Self (15-foot radius)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mage Hand
+  Classes: Artificer, Bard, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Magic Stone
+  Classes: Druid, Warlock, Artificer
+  School: Transmutation
+  Range: Touch
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mending
+  Classes: Artificer, Bard, Cleric, Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Message
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mind Sliver
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Minor Illusion
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: 30 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mold Earth
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Instantaneous or 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: On/Off (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Poison Spray
+  Classes: Artificer, Druid, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 10 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Prestidigitation
+  Classes: Artificer, Bard, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: 10 feet
+  Duration: Up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Primal Savagery
+  Classes: Druid
+  School: Transmutation
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Produce Flame
+  Classes: Druid
+  School: Conjuration
+  Range: Self
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ray of Frost
+  Classes: Artificer, Sorcerer, Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Resistance
+  Classes: Artificer, Cleric, Druid
+  School: Abjuration
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sacred Flame
+  Classes: Cleric
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sapping Sting
+  Classes: Wizard
+  School: Necromancy
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shape Water
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Instantaneous or 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shillelagh
+  Classes: Druid
+  School: Transmutation
+  Range: Touch
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shocking Grasp
+  Classes: Artificer, Sorcerer, Wizard
+  School: Evocation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Spare the Dying
+  Classes: Artificer, Cleric
+  School: Necromancy
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sword Burst
+  Classes: Artificer, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: Self (5-foot radius)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Thaumaturgy
+  Classes: Cleric
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Thorn Whip
+  Classes: Artificer, Druid
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Thunderclap
+  Classes: Bard, Druid, Sorcerer, Warlock, Wizard, Artificer
+  School: Evocation
+  Range: Self (5-foot radius)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Toll the Dead
+  Classes: Cleric, Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: True Strike
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Divination
+  Range: 30 Feet
+  Duration: Concentration up to 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Vicious Mockery
+  Classes: Bard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Virtue (UA)
+  Classes: Cleric
+  School: Abjuration
+  Range: Touch
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Word of Radiance
+  Classes: Cleric
+  School: Evocation
+  Range: 5 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Absorb Elements
+  Classes: Artificer, Druid, Ranger, Sorcerer, Wizard
+  School: Abjuration
+  Range: Self
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Acid Stream (UA)
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: Self (30-foot line)
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Alarm
+  Classes: Artificer, Ranger, Wizard
+  School: Abjuration
+  Range: 30 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Animal Friendship
+  Classes: Bard, Druid, Ranger
+  School: Enchantment
+  Range: 30 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Arcane Weapon (UA)
+  Classes: Artificer
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Armor of Agathys
+  Classes: Warlock
+  School: Abjuration
+  Range: Self
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Arms of Hadar
+  Classes: Warlock
+  School: Conjuration
+  Range: Self (10-foot radius)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Bane
+  Classes: Bard, Cleric
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Beast Bond
+  Classes: Druid, Ranger
+  School: Divination
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Bless
+  Classes: Cleric, Paladin
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Burning Hands
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: Self (15-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Catapult
+  Classes: Artificer, Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Cause Fear
+  Classes: Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ceremony
+  Classes: Cleric, Paladin
+  School: Evocation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Chaos Bolt
+  Classes: Sorcerer
+  School: Evocation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Charm Person
+  Classes: Bard, Druid, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Chromatic Orb
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 90 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Color Spray
+  Classes: Bard, Sorcerer, Wizard
+  School: Illusion
+  Range: Self (15-foot cone)
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Command
+  Classes: Bard, Cleric, Paladin
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Compelled Duel
+  Classes: Paladin
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Comprehend Languages
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Divination
+  Range: Self
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Create or Destroy Water
+  Classes: Cleric, Druid
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Cure Wounds
+  Classes: Artificer, Bard, Cleric, Druid, Paladin, Ranger
+  School: Evocation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Detect Evil and Good
+  Classes: Cleric, Paladin
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Detect Magic
+  Classes: Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Detect Poison and Disease
+  Classes: Cleric, Druid, Paladin, Ranger
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Disguise Self
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Illusion
+  Range: Self
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dissonant Whispers
+  Classes: Bard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Distort Value
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Divine Favor
+  Classes: Paladin
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Earth Tremor
+  Classes: Bard, Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: Self (10-foot radius)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ensnaring Strike
+  Classes: Ranger
+  School: Conjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Entangle
+  Classes: Druid, Ranger
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Expeditious Retreat
+  Classes: Artificer, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Faerie Fire
+  Classes: Artificer, Bard, Druid
+  School: Evocation
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: False Life
+  Classes: Artificer, Sorcerer, Wizard
+  School: Necromancy
+  Range: Self
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Feather Fall
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Find Familiar
+  Classes: Wizard
+  School: Conjuration
+  Range: 10 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fog Cloud
+  Classes: Druid, Ranger, Sorcerer, Wizard
+  School: Conjuration
+  Range: 120 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Frost Fingers
+  Classes: Wizard
+  School: Evocation
+  Range: Self (15-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gift of Alacrity
+  Classes: Wizard
+  School: Divination
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Goodberry
+  Classes: Druid, Ranger
+  School: Transmutation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Grease
+  Classes: Artificer, Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Guiding Bolt
+  Classes: Cleric
+  School: Evocation
+  Range: 120 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Guiding Hand (UA)
+  Classes: Bard, Cleric, Druid, Wizard
+  School: Divination
+  Range: 5 feet
+  Duration: Concentration, up to 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hail of Thorns
+  Classes: Ranger
+  School: Conjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Healing Elixir (UA)
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: Self
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Healing Word
+  Classes: Bard, Cleric, Druid
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hellish Rebuke
+  Classes: Warlock
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Heroism
+  Classes: Bard, Paladin
+  School: Enchantment
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hex
+  Classes: Warlock
+  School: Enchantment
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hunter's Mark
+  Classes: Ranger
+  School: Divination
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ice Knife
+  Classes: Druid, Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Id Insinuation (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Identify
+  Classes: Artificer, Bard, Wizard
+  School: Divination
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Illusory Script
+  Classes: Bard, Warlock, Wizard
+  School: Illusion
+  Range: Touch
+  Duration: 10 days
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Infallible Relay (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Inflict Wounds
+  Classes: Cleric
+  School: Necromancy
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Jim's Magic Missile
+  Classes: Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Jump
+  Classes: Artificer, Druid, Ranger, Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Longstrider
+  Classes: Artificer, Bard, Druid, Ranger, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mage Armor
+  Classes: Sorcerer, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Magic Missile
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Magnify Gravity
+  Classes: Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Protection from Evil and Good
+  Classes: Cleric, Druid, Paladin, Warlock, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Puppet (UA)
+  Classes: Bard, Warlock, Wizard
+  School: Enchantment
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Purify Food and Drink
+  Classes: Artificer, Cleric, Druid, Paladin
+  School: Transmutation
+  Range: 10 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ray of Sickness
+  Classes: Sorcerer, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Remote Access (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sanctuary
+  Classes: Artificer, Cleric
+  School: Abjuration
+  Range: 30 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Searing Smite
+  Classes: Paladin, Ranger
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sense Emotion (UA)
+  Classes: Bard, Warlock, Wizard
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shield
+  Classes: Sorcerer, Wizard
+  School: Abjuration
+  Range: Self
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shield of Faith
+  Classes: Cleric, Paladin
+  School: Abjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Silent Image
+  Classes: Bard, Sorcerer, Wizard
+  School: Illusion
+  Range: 60 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sleep
+  Classes: Bard, Sorcerer, Wizard
+  School: Enchantment
+  Range: 90 feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Snare
+  Classes: Artificer, Druid, Ranger, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Until dispelled or triggered
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Speak with Animals
+  Classes: Bard, Druid, Ranger
+  School: Divination
+  Range: Self
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sudden Awakening (UA)
+  Classes: Bard, Ranger, Sorcerer, Wizard
+  School: Enchantment
+  Range: 10 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tasha's Caustic Brew
+  Classes: Artificer, Sorcerer, Wizard
+  School: Evocation
+  Range: Self (30-foot line)
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tasha's Hideous Laughter
+  Classes: Bard, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tenser's Floating Disk
+  Classes: Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Thunderous Smite
+  Classes: Paladin
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Thunderwave
+  Classes: Bard, Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: Self (15-foot cube)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Unearthly Chorus (UA)
+  Classes: Bard
+  School: Illusion
+  Range: Self (30-foot radius)
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Unseen Servant
+  Classes: Bard, Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wild Cunning (UA)
+  Classes: Druid, Ranger
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Witch Bolt
+  Classes: Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wrathful Smite
+  Classes: Paladin
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Zephyr Strike
+  Classes: Ranger
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Aganazzar's Scorcher
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Aid
+  Classes: Artificer, Bard, Cleric, Paladin, Ranger
+  School: Abjuration
+  Range: 30 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Alter Self
+  Classes: Artificer, Sorcerer, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Animal Messenger
+  Classes: Bard, Druid, Ranger
+  School: Enchantment
+  Range: 30 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Arcane Hacking (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Arcane Lock
+  Classes: Artificer, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Augury
+  Classes: Cleric, Druid, Wizard
+  School: Divination
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Barkskin
+  Classes: Druid, Ranger
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Beast Sense
+  Classes: Druid, Ranger
+  School: Divination
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blindness/Deafness
+  Classes: Bard, Cleric, Sorcerer, Wizard
+  School: Necromancy
+  Range: 30 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blur
+  Classes: Artificer, Sorcerer, Wizard
+  School: Illusion
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Branding Smite
+  Classes: Paladin
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Calm Emotions
+  Classes: Bard, Cleric
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Cloud of Daggers
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Continual Flame
+  Classes: Artificer, Cleric, Druid, Wizard
+  School: Evocation
+  Range: Touch
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Cordon of Arrows
+  Classes: Ranger
+  School: Transmutation
+  Range: 5 feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Crown of Madness
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Darkness
+  Classes: Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Darkvision
+  Classes: Artificer, Druid, Ranger, Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Detect Thoughts
+  Classes: Bard, Sorcerer, Wizard
+  School: Divination
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Digital Phantom (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dragon's Breath
+  Classes: Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dust Devil
+  Classes: Druid, Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Earthbind
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: 300 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Enhance Ability
+  Classes: Artificer, Bard, Cleric, Druid, Ranger, Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Enlarge/Reduce
+  Classes: Artificer, Bard, Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Enthrall
+  Classes: Bard, Warlock
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Find Steed
+  Classes: Paladin
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Find Traps
+  Classes: Cleric, Druid, Ranger
+  School: Divination
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Find Vehicle (UA)
+  Classes: Paladin, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Flame Blade
+  Classes: Druid, Sorcerer
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Flaming Sphere
+  Classes: Druid, Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Flock of Familiars
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fortune's Favor
+  Classes: Wizard
+  School: Divination
+  Range: 60 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gentle Repose
+  Classes: Cleric, Paladin, Wizard
+  School: Necromancy
+  Range: Touch
+  Duration: 10 days
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gift of Gab
+  Classes: Bard, Wizard
+  School: Enchantment
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gust of Wind
+  Classes: Druid, Ranger, Sorcerer, Wizard
+  School: Evocation
+  Range: Self (60-foot line)
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Healing Spirit
+  Classes: Druid, Ranger
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Heat Metal
+  Classes: Artificer, Bard, Druid
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hold Person
+  Classes: Bard,Cleric, Druid,Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Icingdeath's Frost (UA)
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: Self (15-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Immovable Object
+  Classes: Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Invisibility
+  Classes: Artificer, Bard, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Jim's Glowing Coin
+  Classes: Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Knock
+  Classes: Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Lesser Restoration
+  Classes: Artificer, Bard, Cleric, Druid, Paladin, Ranger
+  School: Abjuration
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Levitate
+  Classes: Artificer, Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Locate Animals or Plants
+  Classes: Bard, Druid, Ranger
+  School: Divination
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Locate Object
+  Classes: Bard, Cleric, Druid, Paladin, Ranger, Wizard
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Magic Mouth
+  Classes: Artificer, Bard, Wizard
+  School: Illusion
+  Range: 30 Feet
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Magic Weapon
+  Classes: Artificer, Paladin, Ranger, Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Maximillian's Earthen Grasp
+  Classes: Sorcerer, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Melf's Acid Arrow
+  Classes: Wizard
+  School: Evocation
+  Range: 90 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mental Barrier (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: Self
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mind Spike
+  Classes: Sorcerer, Warlock, Wizard
+  School: Divination
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mind Thrust (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mirror Image
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: Self
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Misty Step
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Moonbeam
+  Classes: Druid
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Nathair's Mischief (UA)
+  Classes: Bard, Sorcerer, Wizard
+  School: Illusion
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Nystul's Magic Aura
+  Classes: Wizard
+  School: Illusion
+  Range: Touch
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Pass Without Trace
+  Classes: Druid, Ranger
+  School: Abjuration
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Phantasmal Force
+  Classes: Bard, Sorcerer, Wizard
+  School: Illusion
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Prayer of Healing
+  Classes: Cleric, Paladin
+  School: Evocation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Protection from Poison
+  Classes: Artificer, Cleric, Druid, Paladin, Ranger
+  School: Abjuration
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Pyrotechnics
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ray of Enfeeblement
+  Classes: Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Rope Trick
+  Classes: Artificer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Scorching Ray
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: See Invisibility
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Divination
+  Range: Self
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shadow Blade
+  Classes: Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shatter
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Silence
+  Classes: Bard, Cleric, Ranger
+  School: Illusion
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Skywrite
+  Classes: Bard, Druid, Wizard, Artificer
+  School: Transmutation
+  Range: Sight
+  Duration: Concentration, up to 1 day
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Snilloc's Snowball Storm
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 90 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Spider Climb
+  Classes: Artificer, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Spike Growth
+  Classes: Druid, Ranger
+  School: Transmutation
+  Range: 150 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Spiritual Weapon
+  Classes: Cleric
+  School: Evocation
+  Range: 60 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Suggestion
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Beast
+  Classes: Druid, Ranger
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tasha's Mind Whip
+  Classes: Sorcerer, Wizard
+  School: Enchantment
+  Range: 90 feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Thought Shield (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Warding Bond
+  Classes: Cleric, Paladin
+  School: Abjuration
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Warding Wind
+  Classes: Bard, Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Web
+  Classes: Artificer, Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wristpocket
+  Classes: Wizard
+  School: Conjuration
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Zone of Truth
+  Classes: Bard, Cleric, Paladin
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Animate Dead
+  Classes: Cleric, Wizard
+  School: Necromancy
+  Range: 10 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Aura of Vitality
+  Classes: Cleric, Druid, Paladin
+  School: Evocation
+  Range: Self (30-foot radius)
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Beacon of Hope
+  Classes: Cleric
+  School: Abjuration
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Bestow Curse
+  Classes: Bard, Cleric, Wizard
+  School: Necromancy
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blinding Smite
+  Classes: Paladin
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blink
+  Classes: Artificer, Sorcerer, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Call Lightning
+  Classes: Druid
+  School: Conjuration
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Catnap
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Clairvoyance
+  Classes: Bard, Cleric, Sorcerer, Wizard
+  School: Divination
+  Range: 1 mile
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Animals
+  Classes: Druid, Ranger
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Barrage
+  Classes: Ranger
+  School: Conjuration
+  Range: Self (60-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Lesser Demon (UA)
+  Classes: Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Counterspell
+  Classes: Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Create Food and Water
+  Classes: Artificer, Cleric, Paladin
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Crusader's Mantle
+  Classes: Paladin
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Daylight
+  Classes: Cleric, Druid, Paladin, Ranger, Sorcerer
+  School: Evocation
+  Range: 60 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dispel Magic
+  Classes: Artificer, Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Elemental Weapon
+  Classes: Artificer, Druid, Paladin, Ranger
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Enemies Abound
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Erupting Earth
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fast Friends
+  Classes: Bard, Cleric, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fear
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: Self (30-foot cone)
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Feign Death
+  Classes: Bard, Cleric, Druid, Wizard
+  School: Necromancy
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fireball
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Flame Arrows
+  Classes: Artificer, Druid, Ranger, Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Flame Stride (UA)
+  Classes: Artificer, Ranger, Sorcerer, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fly
+  Classes: Artificer, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 10 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Galder's Tower
+  Classes: Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gaseous Form
+  Classes: Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Glyph of Warding
+  Classes: Artificer, Bard, Cleric, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Until dispelled or triggered
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Haste
+  Classes: Artificer, Sorcerer, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Haywire (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hunger Of Hadar
+  Classes: Warlock
+  School: Conjuration
+  Range: 150 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hypnotic Pattern
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Incite Greed
+  Classes: Cleric, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Intellect Fortress
+  Classes: Artificer, Bard, Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: 30 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Invisibility To Cameras (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: 10 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Leomund's Tiny Hut
+  Classes: Bard, Wizard
+  School: Evocation
+  Range: Self (10-foot radius hemisphere)
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Life Transference
+  Classes: Cleric, Wizard
+  School: Evocation
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Lightning Arrow
+  Classes: Ranger
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Lightning Bolt
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: Self (100-foot line)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Magic Circle
+  Classes: Cleric, Paladin, Warlock, Wizard
+  School: Abjuration
+  Range: 10 feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Major Image
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mass Healing Word
+  Classes: Bard, Cleric
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Meld into Stone
+  Classes: Cleric, Druid, Ranger
+  School: Transmutation
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Melf's Minute Meteors
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Motivational Speech
+  Classes: Bard, Cleric
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Nondetection
+  Classes: Bard, Ranger, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Phantom Steed
+  Classes: Wizard
+  School: Illusion
+  Range: 30 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Plant Growth
+  Classes: Bard, Druid, Ranger
+  School: Transmutation
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Protection from Ballistics (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Protection from Energy
+  Classes: Artificer, Cleric, Druid, Ranger, Sorcerer, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Psionic Blast (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: Self (30-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Pulse Wave
+  Classes: Wizard
+  School: Evocation
+  Range: Self (30-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Remove Curse
+  Classes: Cleric, Paladin, Warlock, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Revivify
+  Classes: Artificer, Cleric, Druid, Paladin, Ranger
+  School: Necromancy
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sending
+  Classes: Bard, Cleric, Wizard
+  School: Evocation
+  Range: Unlimited
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sleet Storm
+  Classes: Druid, Sorcerer, Wizard
+  School: Conjuration
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Slow
+  Classes: Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Speak with Dead
+  Classes: Bard, Cleric, Wizard
+  School: Necromancy
+  Range: 10 feet
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Speak with Plants
+  Classes: Bard, Druid, Ranger
+  School: Transmutation
+  Range: Self (30-foot radius)
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Spirit Guardians
+  Classes: Cleric
+  School: Conjuration
+  Range: Self (15-foot radius)
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Spirit Shroud
+  Classes: Cleric, Paladin, Warlock, Wizard
+  School: Necromancy
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Stinking Cloud
+  Classes: Bard, Sorcerer, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Fey
+  Classes: Druid, Ranger, Warlock, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Lesser Demons
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Shadowspawn
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Undead
+  Classes: Warlock, Wizard
+  School: Necromancy
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Thunder Step
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tidal Wave
+  Classes: Druid, Wizard
+  School: Conjuration
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tiny Servant
+  Classes: Artificer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tongues
+  Classes: Bard, Cleric, Sorcerer, Warlock, Wizard
+  School: Divination
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Vampiric Touch
+  Classes: Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall of Sand
+  Classes: Wizard
+  School: Evocation
+  Range: 90 feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall of Water
+  Classes: Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Water Breathing
+  Classes: Artificer, Druid, Ranger, Sorcerer, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Water Walk
+  Classes: Artificer, Cleric, Druid, Ranger, Sorcerer
+  School: Transmutation
+  Range: 30 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wind Wall
+  Classes: Druid, Ranger
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Arcane Eye
+  Classes: Artificer, Wizard
+  School: Divination
+  Range: 30 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Aura of Life
+  Classes: Cleric, Paladin
+  School: Abjuration
+  Range: Self (30-foot radius)
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Aura of Purity
+  Classes: Cleric, Paladin
+  School: Abjuration
+  Range: Self (30-foot radius)
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Banishment
+  Classes: Cleric, Paladin, Sorcerer, Warlock, Wizard
+  School: Abjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blight
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Charm Monster
+  Classes: Bard, Druid, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Compulsion
+  Classes: Bard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Confusion
+  Classes: Bard, Druid, Sorcerer, Wizard
+  School: Enchantment
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Barlgura (UA)
+  Classes: Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Knowbot (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: Touch
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Minor Elementals
+  Classes: Druid, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Shadow Demon (UA)
+  Classes: Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Woodland Beings
+  Classes: Druid, Ranger
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Control Water
+  Classes: Cleric, Druid, Wizard
+  School: Transmutation
+  Range: 300 feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Death Ward
+  Classes: Cleric, Paladin
+  School: Abjuration
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dimension Door
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 500 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Divination
+  Classes: Cleric, Druid, Wizard
+  School: Divination
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dominate Beast
+  Classes: Druid, Ranger, Sorcerer
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ego Whip (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Elemental Bane
+  Classes: Druid, Warlock, Wizard, Artificer
+  School: Transmutation
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Evard's Black Tentacles
+  Classes: Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fabricate
+  Classes: Artificer, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Find Greater Steed
+  Classes: Paladin
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fire Shield
+  Classes: Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: Self
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Freedom of Movement
+  Classes: Artificer, Bard, Cleric, Druid, Ranger
+  School: Abjuration
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Galder's Speedy Courier
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: 10 feet
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Giant Insect
+  Classes: Druid
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Grasping Vine
+  Classes: Druid, Ranger
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gravity Sinkhole
+  Classes: Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Greater Invisibility
+  Classes: Bard, Sorcerer, Wizard
+  School: Illusion
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Guardian of Faith
+  Classes: Cleric
+  School: Conjuration
+  Range: 30 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Guardian of Nature
+  Classes: Druid, Ranger
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hallucinatory Terrain
+  Classes: Bard, Druid, Warlock, Wizard
+  School: Illusion
+  Range: 300 feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ice Storm
+  Classes: Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: 300 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Leomund's Secret Chest
+  Classes: Artificer,Wizard
+  School: Conjuration
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Locate Creature
+  Classes: Bard, Cleric, Druid, Paladin, Ranger, Wizard
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mordenkainen's Faithful Hound
+  Classes: Artificer, Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mordenkainen's Private Sanctum
+  Classes: Artificer, Wizard
+  School: Abjuration
+  Range: 120 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Otiluke's Resilient Sphere
+  Classes: Artificer, Wizard
+  School: Evocation
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Phantasmal Killer
+  Classes: Bard, Wizard
+  School: Illusion
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Polymorph
+  Classes: Bard, Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Raulothim's Psychic Lance (UA)
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shadow Of Moil
+  Classes: Warlock
+  School: Necromancy
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sickening Radiance
+  Classes: Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Staggering Smite
+  Classes: Paladin
+  School: Evocation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Stone Shape
+  Classes: Artificer, Cleric, Druid, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Stoneskin
+  Classes: Artificer, Druid, Ranger, Sorcerer, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Storm Sphere
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Aberration
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Construct
+  Classes: Artificer, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Elemental
+  Classes: Druid, Ranger, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Greater Demon
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Synchronicity (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: System Backdoor (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Vitriolic Sphere
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall of Fire
+  Classes: Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Watery Sphere
+  Classes: Druid, Sorcerer, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Widogast's Vault of Amber (HB)
+  Classes: Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Widogast's Web of Fire (HB)
+  Classes: Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Animate Objects
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Antilife Shell
+  Classes: Druid
+  School: Abjuration
+  Range: Self (10-foot radius)
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Awaken
+  Classes: Bard, Druid
+  School: Transmutation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Banishing Smite
+  Classes: Paladin
+  School: Abjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Bigby's Hand
+  Classes: Artificer, Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Circle of Power
+  Classes: Paladin
+  School: Abjuration
+  Range: Self (30-foot radius)
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Cloudkill
+  Classes: Sorcerer, Wizard
+  School: Conjuration
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Commune
+  Classes: Cleric
+  School: Divination
+  Range: Self
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Commune with City (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Divination
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Commune with Nature
+  Classes: Druid, Ranger
+  School: Divination
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Cone of Cold
+  Classes: Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: Self (60-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Elemental
+  Classes: Druid, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Volley
+  Classes: Ranger
+  School: Conjuration
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Vrock (UA)
+  Classes: Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Contact Other Plane
+  Classes: Warlock, Wizard
+  School: Divination
+  Range: Self
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Contagion
+  Classes: Cleric, Druid
+  School: Necromancy
+  Range: Touch
+  Duration: 7 days
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Control Winds
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 300 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Creation
+  Classes: Artificer, Sorcerer, Wizard
+  School: Illusion
+  Range: 30 Feet
+  Duration: Special
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Danse Macabre
+  Classes: Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dawn
+  Classes: Cleric, Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Destructive Wave
+  Classes: Paladin
+  School: Evocation
+  Range: Self (30-foot radius)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dispel Evil and Good
+  Classes: Cleric, Paladin
+  School: Abjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dominate Person
+  Classes: Bard, Sorcerer, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dream
+  Classes: Bard, Warlock, Wizard
+  School: Illusion
+  Range: Special
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Enervation
+  Classes: Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Far Step
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Flame Strike
+  Classes: Cleric
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Geas
+  Classes: Bard, Cleric, Druid, Paladin, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 30 days
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Greater Restoration
+  Classes: Artificer, Bard, Cleric, Druid, Ranger
+  School: Abjuration
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hallow
+  Classes: Cleric
+  School: Evocation
+  Range: Touch
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Hold Monster
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Holy Weapon
+  Classes: Cleric, Paladin
+  School: Evocation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Immolation
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 90 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Infernal Calling
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Insect Plague
+  Classes: Cleric, Druid, Sorcerer
+  School: Conjuration
+  Range: 300 feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Legend Lore
+  Classes: Bard, Cleric, Wizard
+  School: Divination
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Maelstrom
+  Classes: Druid
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mass Cure Wounds
+  Classes: Bard, Cleric, Druid
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mislead
+  Classes: Bard, Warlock, Wizard
+  School: Illusion
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Modify Memory
+  Classes: Bard, Warlock, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Negative Energy Flood
+  Classes: Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Passwall
+  Classes: Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Planar Binding
+  Classes: Bard, Cleric, Druid, Warlock, Wizard
+  School: Abjuration
+  Range: 60 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Raise Dead
+  Classes: Bard, Cleric, Paladin
+  School: Necromancy
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Rary's Telepathic Bond
+  Classes: Bard, Wizard
+  School: Divination
+  Range: 30 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Reincarnate
+  Classes: Druid
+  School: Transmutation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Scrying
+  Classes: Bard, Cleric, Druid, Warlock, Wizard
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Seeming
+  Classes: Bard, Sorcerer, Wizard
+  School: Illusion
+  Range: 30 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shutdown (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Skill Empowerment
+  Classes: Artificer, Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Steel Wind Strike
+  Classes: Ranger, Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Celestial
+  Classes: Cleric, Paladin
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Draconic Spirit (UA)
+  Classes: Druid, Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Swift Quiver
+  Classes: Ranger
+  School: Transmutation
+  Range: Touch
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Synaptic Static
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Telekinesis
+  Classes: Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Teleportation Circle
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 10 feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Temporal Shunt
+  Classes: Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Transmute Rock
+  Classes: Druid, Wizard, Artificer
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tree Stride
+  Classes: Druid, Ranger
+  School: Conjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall of Force
+  Classes: Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall Of Light
+  Classes: Sorcerer, Warlock, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall of Stone
+  Classes: Artificer, Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wrath Of Nature
+  Classes: Druid, Ranger
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Arcane Gate
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 500 feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blade Barrier
+  Classes: Cleric
+  School: Evocation
+  Range: 90 feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Bones of the Earth
+  Classes: Druid
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Chain Lightning
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Circle of Death
+  Classes: Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Fey
+  Classes: Druid, Warlock
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Contingency
+  Classes: Wizard
+  School: Evocation
+  Range: Self
+  Duration: 10 days
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Create Homunculus
+  Classes: Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Create Undead
+  Classes: Cleric, Warlock, Wizard
+  School: Necromancy
+  Range: 10 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Disintegrate
+  Classes: Sorcerer, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Drawmij's Instant Summons
+  Classes: Wizard
+  School: Conjuration
+  Range: Touch
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Druid Grove
+  Classes: Druid
+  School: Abjuration
+  Range: Touch
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Eyebite
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Find the Path
+  Classes: Bard, Cleric, Druid
+  School: Divination
+  Range: Self
+  Duration: Concentration, up to 1 day
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fizban's Platinum Shield (UA)
+  Classes: Sorcerer, Wizard
+  School: Abjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Flesh to Stone
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Forbiddance
+  Classes: Cleric
+  School: Abjuration
+  Range: Touch
+  Duration: 1 day
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Globe of Invulnerability
+  Classes: Sorcerer, Wizard
+  School: Abjuration
+  Range: Self (10-foot radius)
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gravity Fissure
+  Classes: Wizard
+  School: Evocation
+  Range: Self (100-foot line)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Guards and Wards
+  Classes: Bard, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Harm
+  Classes: Cleric
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Heal
+  Classes: Cleric, Druid
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Heroes' Feast
+  Classes: Bard, Cleric, Druid
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Investiture of Flame
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Investiture of Ice
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Investiture of Stone
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Investiture of Wind
+  Classes: Druid, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Magic Jar
+  Classes: Wizard
+  School: Necromancy
+  Range: Self
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mass Suggestion
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mental Prison
+  Classes: Sorcerer, Warlock, Wizard
+  School: Illusion
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Move Earth
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Concentration, up to 2 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Otherworldly Form (UA)
+  Classes: Cleric, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Otiluke's Freezing Sphere
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 300 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Otto's Irresistible Dance
+  Classes: Bard, Wizard
+  School: Enchantment
+  Range: 30 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Planar Ally
+  Classes: Cleric
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Primordial Ward
+  Classes: Druid
+  School: Abjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Programmed Illusion
+  Classes: Bard, Wizard
+  School: Illusion
+  Range: 120 Feet
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Psychic Crush (UA)
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Scatter
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Soul Cage
+  Classes: Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Summon Fiend
+  Classes: Warlock, Wizard
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sunbeam
+  Classes: Cleric, Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: Self (60-foot line)
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tasha's Otherworldly Guise
+  Classes: Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tenser's Transformation
+  Classes: Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Transport via Plants
+  Classes: Druid
+  School: Conjuration
+  Range: 10 feet
+  Duration: 1 round
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: True Seeing
+  Classes: Bard, Cleric, Sorcerer, Warlock, Wizard
+  School: Divination
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall of Ice
+  Classes: Wizard
+  School: Evocation
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wall of Thorns
+  Classes: Druid
+  School: Conjuration
+  Range: 120 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Widogast's Transmogrification (HB)
+  Classes: Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wind Walk
+  Classes: Druid
+  School: Transmutation
+  Range: 30 Feet
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Word of Recall
+  Classes: Cleric
+  School: Conjuration
+  Range: 5 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Celestial
+  Classes: Cleric
+  School: Conjuration
+  Range: 90 feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Conjure Hezrou (UA)
+  Classes: Sorcerer, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Create Magen
+  Classes: Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Crown Of Stars
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: Self
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Delayed Blast Fireball
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Divine Word
+  Classes: Cleric
+  School: Evocation
+  Range: 30 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Draconic Transformation (UA)
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dream of the Blue Veil
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 20 feet
+  Duration: 6 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Etherealness
+  Classes: Bard, Cleric, Sorcerer, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Up to 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Finger of Death
+  Classes: Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Fire Storm
+  Classes: Cleric, Druid, Sorcerer
+  School: Evocation
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Forcecage
+  Classes: Bard, Warlock, Wizard
+  School: Evocation
+  Range: 100 feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mirage Arcane
+  Classes: Bard, Druid, Wizard
+  School: Illusion
+  Range: Sight
+  Duration: 10 days
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mordenkainen's Magnificent Mansion
+  Classes: Bard, Wizard
+  School: Conjuration
+  Range: 300 feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mordenkainen's Sword
+  Classes: Bard, Wizard
+  School: Evocation
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Plane Shift
+  Classes: Cleric, Druid, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Power Word: Pain
+  Classes: Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Prismatic Spray
+  Classes: Bard, Sorcerer, Wizard
+  School: Evocation
+  Range: Self (60-foot cone)
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Project Image
+  Classes: Bard, Warlock, Wizard
+  School: Illusion
+  Range: 500 Miles
+  Duration: Concentration, up to 1 day
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Regenerate
+  Classes: Bard, Cleric, Druid
+  School: Transmutation
+  Range: Touch
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Resurrection
+  Classes: Bard, Cleric
+  School: Necromancy
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Reverse Gravity
+  Classes: Druid, Sorcerer, Wizard
+  School: Transmutation
+  Range: 100 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sequester
+  Classes: Wizard
+  School: Transmutation
+  Range: Touch
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Simulacrum
+  Classes: Wizard
+  School: Illusion
+  Range: Touch
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Symbol
+  Classes: Bard, Cleric, Druid, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: Until dispelled or triggered
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Teleport
+  Classes: Bard, Sorcerer, Wizard
+  School: Conjuration
+  Range: 10 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Temple of the Gods
+  Classes: Cleric
+  School: Conjuration
+  Range: 120 Feet
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tether Essence
+  Classes: Wizard
+  School: Necromancy
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Whirlwind
+  Classes: Druid, Wizard
+  School: Evocation
+  Range: 300 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Abi-Dalzim's Horrid Wilting
+  Classes: Sorcerer, Warlock, Wizard
+  School: Necromancy
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Animal Shapes
+  Classes: Druid
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Concentration, up to 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Antimagic Field
+  Classes: Cleric, Wizard
+  School: Abjuration
+  Range: Self (10-foot radius sphere)
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Antipathy/Sympathy
+  Classes: Bard, Druid, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: 10 days
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Clone
+  Classes: Wizard
+  School: Necromancy
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Control Weather
+  Classes: Cleric, Druid, Wizard
+  School: Transmutation
+  Range: Self (5 mile radius)
+  Duration: Concentration, up to 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dark Star
+  Classes: Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Demiplane
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Dominate Monster
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Earthquake
+  Classes: Cleric, Druid, Sorcerer
+  School: Evocation
+  Range: 500 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Feeblemind
+  Classes: Bard, Druid, Warlock, Wizard
+  School: Enchantment
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Glibness
+  Classes: Bard, Warlock
+  School: Transmutation
+  Range: Self
+  Duration: 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Holy Aura
+  Classes: Cleric
+  School: Abjuration
+  Range: Self
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Illusory Dragon
+  Classes: Wizard
+  School: Illusion
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Incendiary Cloud
+  Classes: Druid, Sorcerer, Wizard
+  School: Conjuration
+  Range: 150 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Maddening Darkness
+  Classes: Warlock, Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Maze
+  Classes: Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mighty Fortress
+  Classes: Wizard
+  School: Conjuration
+  Range: 1 mile
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mind Blank
+  Classes: Bard, Wizard
+  School: Abjuration
+  Range: Touch
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Power Word: Stun
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Reality Break
+  Classes: Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Sunburst
+  Classes: Cleric, Druid, Sorcerer, Wizard
+  School: Evocation
+  Range: 150 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Telepathy
+  Classes: Wizard
+  School: Evocation
+  Range: Unlimited
+  Duration: 24 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Tsunami
+  Classes: Druid
+  School: Conjuration
+  Range: Sight
+  Duration: Concentration, up to 6 rounds
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Astral Projection
+  Classes: Cleric, Warlock, Wizard
+  School: Evocation
+  Range: 10 feet
+  Duration: Special
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Blade of Disaster
+  Classes: Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Foresight
+  Classes: Bard, Druid, Warlock, Wizard
+  School: Divination
+  Range: Touch
+  Duration: 8 hours
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Gate
+  Classes: Cleric, Sorcerer, Warlock, Wizard
+  School: Conjuration
+  Range: 60 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Imprisonment
+  Classes: Warlock, Wizard
+  School: Abjuration
+  Range: 30 Feet
+  Duration: Until dispelled
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Invulnerability
+  Classes: Wizard
+  School: Abjuration
+  Range: Self
+  Duration: Concentration, up to 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mass Heal
+  Classes: Cleric
+  School: Evocation
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Mass Polymorph
+  Classes: Bard, Sorcerer, Wizard
+  School: Transmutation
+  Range: 120 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Meteor Swarm
+  Classes: Sorcerer, Wizard
+  School: Evocation
+  Range: 1 mile
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Power Word: Heal
+  Classes: Bard, Cleric
+  School: Evocation
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Power Word: Kill
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 60 Feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Prismatic Wall
+  Classes: Bard, Wizard
+  School: Abjuration
+  Range: 60 Feet
+  Duration: 10 minutes
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Psychic Scream
+  Classes: Bard, Sorcerer, Warlock, Wizard
+  School: Enchantment
+  Range: 90 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Ravenous Void
+  Classes: Wizard
+  School: Evocation
+  Range: 1,000 feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Shapechange
+  Classes: Druid, Warlock, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Storm of Vengeance
+  Classes: Druid
+  School: Conjuration
+  Range: Sight
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Time Ravage
+  Classes: Wizard
+  School: Necromancy
+  Range: 90 feet
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Time Stop
+  Classes: Sorcerer, Wizard
+  School: Transmutation
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: True Polymorph
+  Classes: Bard, Warlock, Wizard
+  School: Transmutation
+  Range: 30 Feet
+  Duration: Concentration, up to 1 hour
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: True Resurrection
+  Classes: Cleric, Druid
+  School: Necromancy
+  Range: Touch
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Weird
+  Classes: Warlock, Wizard
+  School: Illusion
+  Range: 120 Feet
+  Duration: Concentration, up to 1 minute
+<<< May it Serve You Well >>>
+
+
+<<< New Spell Forged >>>
+  Name: Wish
+  Classes: Sorcerer, Wizard
+  School: Conjuration
+  Range: Self
+  Duration: Instantaneous
+<<< May it Serve You Well >>>
