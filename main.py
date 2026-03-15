@@ -1,11 +1,13 @@
 """
-Main pipeline for preprocessing D&D spells and building a character-level tokenizer.
+Main pipeline for preprocessing D&D spells and training the Spellforge transformer.
 """
 
 from src.preprocessing import preprocess_and_save
 from src.tokenizer import build_vocabulary, load_spells, encode_spells, save_vocabulary
 from src.splitting import split_dataset
 from src.lm_data import create_lm_batches
+from src.model import SpellforgeTransformer
+from src.simple_train import simple_train
 
 def main():
     # Step 1: Preprocess spells and save to text file
@@ -53,25 +55,53 @@ def main():
 
     # Step 6: Create LM batches (input_ids and target_ids)
     print("Step 6: Creating language-model batches...")
-    batch_size = 32
+    batch_size = 8  # ← EDIT THIS FOR BATCH SIZE
     pad_id = charToId["<PAD>"]
 
     train_batches = create_lm_batches(train_encoded, batch_size, pad_token_id=pad_id, sort_by_length=True, shuffle=True)
     val_batches = create_lm_batches(val_encoded, batch_size, pad_token_id=pad_id, sort_by_length=True, shuffle=False)
-    test_batches = create_lm_batches(test_encoded, batch_size, pad_token_id=pad_id, sort_by_length=True, shuffle=False)
 
     print(f"Train batches: {len(train_batches)}")
     print(f"Val batches: {len(val_batches)}")
-    print(f"Test batches: {len(test_batches)}")
 
     first_input_ids, first_target_ids = train_batches[0]
     print(f"First train input_ids shape: {tuple(first_input_ids.shape)}")
     print(f"First train target_ids shape: {tuple(first_target_ids.shape)}")
-    print("Sample input_ids (first 2 rows, first 20 tokens):")
-    print(first_input_ids[:2, :20])
-    print("Sample target_ids (first 2 rows, first 20 tokens):")
-    print(first_target_ids[:2, :20])
     print()
+
+    # Step 7: Create and train model
+    print("Step 7: Creating model...")
+    vocab_size = len(charToId)
+    
+    # MODEL ARCHITECTURE
+    model = SpellforgeTransformer(
+        vocab_size=vocab_size,
+        max_seq_len=812,         # ← Exact match to longest spell
+        d_model=384,         # ← Model dimension  
+        num_layers=6,        # ← Number of layers
+        num_heads=6,         # ← Attention heads
+        d_ff=1536,          # ← Feed-forward dimension
+        dropout=0.1         # ← Dropout rate
+    )
+    
+    print(f"Model created with {model.get_num_params():,} parameters\n")
+    
+    # Step 8: Train the model
+    print("Step 8: Training model...")
+    
+    # ← EDIT THESE FOR TRAINING HYPERPARAMETERS  
+    simple_train(
+        model=model,
+        train_batches=train_batches,
+        val_batches=val_batches,
+        charToId=charToId,
+        idToChar=idToChar,
+        epochs=25,            # ← Number of epochs
+        learning_rate=2e-4,   # ← Learning rate
+        device='auto'         # ← 'cuda', 'cpu', or 'auto'
+    )
+    
+    print("\n🎉 Training pipeline complete!")
 
 
 if __name__ == "__main__":

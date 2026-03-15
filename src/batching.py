@@ -1,7 +1,7 @@
 # Batching and Padding for Transformer Training
 # Takes encoded spells and prepares them for training
 
-import numpy as np
+import torch
 import random 
 
 
@@ -31,7 +31,7 @@ def pad_batch(batch, pad_token=0):
         for i in range(padNeeded):
             sequence.append(pad_token)
             
-    return np.array(batch)
+    return torch.tensor(batch, dtype=torch.long)
     
             
     

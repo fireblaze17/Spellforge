@@ -68,8 +68,15 @@ class TokenEmbedding(torch.nn.Module):
             raise TypeError("token_ids must be an integer tensor")
         if token_ids.numel() == 0:
             raise ValueError("token_ids cannot be empty")
+        
+        # clamp out-of-range tokens to valid range and map invalid ones to <UNK>
         if torch.any(token_ids < 0) or torch.any(token_ids >= self.vocab_size):
-            raise ValueError(f"token_ids must be in range [0, {self.vocab_size - 1}]")
+            # clamp to valid range first
+            token_ids = token_ids.clone()  # don't modify input
+            # map negative tokens to <UNK>
+            token_ids[token_ids < 0] = 3  # <UNK> token ID
+            # map too-large tokens to <UNK>  
+            token_ids[token_ids >= self.vocab_size] = 3  # <UNK> token ID
 
         # token_ids shape: [batch_size, seq_len]
         # output shape should be: [batch_size, seq_len, d_model]
