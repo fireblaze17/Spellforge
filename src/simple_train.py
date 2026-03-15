@@ -2,106 +2,136 @@ import torch
 import math
 from tqdm import tqdm
 
+from src.word_tokenizer import decode_tokens_words
+
 
 def simple_train(
     model, 
     train_batches, 
     val_batches, 
-    charToId, 
-    idToChar,
-    epochs=15,
-    learning_rate=3e-4,
-    device='auto'
+    token_to_id,
+    id_to_token,
+    epochs=30,
+    learning_rate=1.5e-4,
+    device='auto',
+    eos_weight=25.0
 ):
     """
-    Simple training loop - just the essentials!
+    Improved training loop building on the successful 2.4 perplexity approach
     """
     # Setup device
     if device == 'auto':
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
     
     model.to(device)
-    print(f"🚀 Training on {device}")
+    print(f"Training on {device}")
     
-    # Simple optimizer
-    optimizer = model.configure_optimizers(learning_rate=learning_rate)
+    # Optimizer with proven settings
+    optimizer = model.configure_optimizers(learning_rate=learning_rate, weight_decay=0.01)
     
-    pad_id = charToId.get('<PAD>', 0)
-    bos_id = charToId.get('<BOS>', 1)
+    # Add learning rate scheduling for better convergence
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=learning_rate*0.1)
+    
+    pad_id = token_to_id.get('<PAD>', 0)
+    eos_id = token_to_id.get('<EOS>', 2)
+    
+    best_val_loss = float('inf')
     
     for epoch in range(epochs):
         # Training
         model.train()
         total_loss = 0
+        eos_predictions = 0
+        total_predictions = 0
         
-        pbar = tqdm(train_batches, desc=f"Epoch {epoch+1}")
+        pbar = tqdm(train_batches, desc=f"Epoch {epoch+1:2d}")
         for input_ids, target_ids in pbar:
             input_ids = input_ids.to(device)
             target_ids = target_ids.to(device)
             
             optimizer.zero_grad()
-            loss, _ = model.forward_lm_batch(input_ids, target_ids)
+            loss, logits = model.forward_lm_batch(input_ids, target_ids, eos_weight=eos_weight)
             loss.backward()
             
-            # Simple gradient clipping
+            # Gradient clipping
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             
             optimizer.step()
             total_loss += loss.item()
             
-            pbar.set_postfix({'loss': f'{loss.item():.3f}'})
+            # Track EOS predictions during training
+            predictions = torch.argmax(logits, dim=-1).flatten()
+            targets = target_ids.flatten()
+            valid_targets = targets != pad_id
+            
+            eos_predictions += (predictions[valid_targets] == eos_id).sum().item()
+            total_predictions += valid_targets.sum().item()
+            
+            # Update progress bar
+            current_lr = scheduler.get_last_lr()[0]
+            eos_rate = eos_predictions / max(total_predictions, 1) * 100
+            pbar.set_postfix({
+                'loss': f'{loss.item():.3f}',
+                'lr': f'{current_lr:.1e}',
+                'eos%': f'{eos_rate:.1f}'
+            })
+        
+        scheduler.step()  # Update learning rate
         
         avg_train_loss = total_loss / len(train_batches)
+        eos_rate = eos_predictions / max(total_predictions, 1) * 100
         
-        # Simple validation
+        # Validation
         model.eval()
         val_loss = 0
         with torch.no_grad():
             for input_ids, target_ids in val_batches:
                 input_ids = input_ids.to(device)
                 target_ids = target_ids.to(device)
-                loss, _ = model.forward_lm_batch(input_ids, target_ids)
+                loss, _ = model.forward_lm_batch(input_ids, target_ids, eos_weight=eos_weight)
                 val_loss += loss.item()
         
         avg_val_loss = val_loss / len(val_batches)
         perplexity = math.exp(avg_val_loss)
         
-        print(f"Epoch {epoch+1}: Train Loss={avg_train_loss:.3f}, Val Loss={avg_val_loss:.3f}, Perplexity={perplexity:.1f}")
+        print(f"Epoch {epoch+1:2d}: Train={avg_train_loss:.3f}, Val={avg_val_loss:.3f}, PPL={perplexity:.1f}, EOS={eos_rate:.1f}%, LR={scheduler.get_last_lr()[0]:.1e}")
+        
+        # Save best model
+        if avg_val_loss < best_val_loss:
+            best_val_loss = avg_val_loss
+            torch.save(model.state_dict(), "best_model.pt")
+            print(f"New best model saved: {avg_val_loss:.3f} validation loss")
         
         # Generate sample every few epochs
-        if epoch % 3 == 0:
-            sample = generate_simple_sample(model, charToId, idToChar, device)
-            print(f"Sample: {sample[:100]}...")
+        if epoch % 4 == 0 or epoch == epochs - 1:
+            sample = generate_simple_sample(model, token_to_id, id_to_token, device)
+            print(f"Sample spell:\n{sample}\n{'-'*60}")
         
-        # Simple checkpoint save
+        # Checkpoint saves
         if epoch % 5 == 0:
             torch.save(model.state_dict(), f"checkpoint_epoch_{epoch}.pt")
     
-    print("✅ Training complete!")
+    # Save final model
+    torch.save(model.state_dict(), f"final_model_epoch_{epochs}.pt")
+    print(f"Saved final model: final_model_epoch_{epochs}.pt")
+    print(f"Training complete! Best validation loss: {best_val_loss:.3f}")
 
 
-def generate_simple_sample(model, charToId, idToChar, device):
-    """Generate a simple spell sample"""
+def generate_simple_sample(model, token_to_id, id_to_token, device):
+    """Generate a sample with better parameters"""
     model.eval()
     
     # Start with BOS token
-    prompt_ids = torch.tensor([[charToId.get('<BOS>', 1)]], device=device)
+    prompt_ids = torch.tensor([[token_to_id.get('<BOS>', 1)]], device=device)
     
     with torch.no_grad():
         generated = model.generate(
             prompt_ids, 
-            max_new_tokens=150,
-            temperature=0.8,
-            do_sample=True
+            max_new_tokens=600,  # More tokens for complete spells
+            temperature=0.8,     # Balanced creativity
+            top_p=0.9,          # Good nucleus sampling
+            do_sample=True,
+            eos_token_id=token_to_id.get('<EOS>', 2)
         )
     
-    # Decode to text
-    tokens = generated.squeeze().tolist()
-    text = ""
-    for token_id in tokens:
-        if token_id < len(idToChar):
-            char = idToChar[token_id]
-            if char not in ['<PAD>', '<BOS>', '<EOS>', '<UNK>']:
-                text += char
-    
-    return text
+    return decode_tokens_words(generated.squeeze().tolist(), id_to_token)

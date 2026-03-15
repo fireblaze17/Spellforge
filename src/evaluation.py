@@ -1,8 +1,8 @@
 import torch
-import torch.nn.functional as F
 import math
-import re
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List
+
+from src.word_tokenizer import decode_tokens_words, encode_text_words
 
 
 class SpellEvaluator:
@@ -11,17 +11,17 @@ class SpellEvaluator:
     Tests both quantitative metrics and qualitative spell generation.
     """
     
-    def __init__(self, model, charToId, idToChar, device='cpu'):
+    def __init__(self, model, token_to_id, id_to_token, device='cpu'):
         self.model = model
-        self.charToId = charToId
-        self.idToChar = idToChar
+        self.token_to_id = token_to_id
+        self.id_to_token = id_to_token
         self.device = device
         
         # Special token IDs
-        self.pad_id = charToId.get('<PAD>', 0)
-        self.bos_id = charToId.get('<BOS>', 1)
-        self.eos_id = charToId.get('<EOS>', 2)
-        self.unk_id = charToId.get('<UNK>', 3)
+        self.pad_id = token_to_id.get('<PAD>', 0)
+        self.bos_id = token_to_id.get('<BOS>', 1)
+        self.eos_id = token_to_id.get('<EOS>', 2)
+        self.unk_id = token_to_id.get('<UNK>', 3)
     
     def compute_perplexity(self, val_batches) -> float:
         """
@@ -83,31 +83,24 @@ class SpellEvaluator:
     
     def encode_prompt(self, text_prompt: str) -> torch.Tensor:
         """Helper to encode text prompts to token IDs"""
-        prompt_tokens = [self.bos_id]
-        for char in text_prompt:
-            if char in self.charToId:
-                prompt_tokens.append(self.charToId[char])
-            else:
-                prompt_tokens.append(self.unk_id)
-        
+        prompt_tokens = encode_text_words(
+            text_prompt,
+            self.token_to_id,
+            add_bos=True,
+            add_eos=False,
+        )
         return torch.tensor([prompt_tokens], dtype=torch.long, device=self.device)
     
     def decode_tokens(self, token_ids: torch.Tensor, skip_special=True) -> str:
         """Helper to decode token IDs back to text"""
         if token_ids.ndim > 1:
             token_ids = token_ids.squeeze()
-        
-        decoded_chars = []
-        special_tokens = {self.pad_id, self.bos_id, self.eos_id, self.unk_id}
-        
-        for token_id in token_ids.tolist():
-            if skip_special and token_id in special_tokens:
-                continue
-            
-            if token_id < len(self.idToChar):
-                decoded_chars.append(self.idToChar[token_id])
-        
-        return ''.join(decoded_chars)
+
+        token_list = token_ids.tolist()
+        if skip_special:
+            return decode_tokens_words(token_list, self.id_to_token)
+
+        return " ".join(self.id_to_token.get(token_id, f"<UNK:{token_id}>") for token_id in token_list)
     
     def generate_sample_spells(self, num_samples=5, temperature=0.8) -> List[str]:
         """
@@ -240,13 +233,13 @@ class SpellEvaluator:
             print("  • Poor format compliance - may need more training")
 
 
-def quick_test_untrained_model(model, charToId, idToChar, device='cpu'):
+def quick_test_untrained_model(model, token_to_id, id_to_token, device='cpu'):
     """
     Quick test to see what an untrained model generates (should be nonsense).
     """
     print("\n🧪 TESTING UNTRAINED MODEL (should generate nonsense):")
     
-    evaluator = SpellEvaluator(model, charToId, idToChar, device)
+    evaluator = SpellEvaluator(model, token_to_id, id_to_token, device)
     
     prompt = "<<< New Spell Forged >>>\n  Name: "
     prompt_ids = evaluator.encode_prompt(prompt)

@@ -77,14 +77,14 @@ def create_lm_batches(encoded_spells, batch_size, pad_token_id=0, sort_by_length
     if sort_by_length:
         spell_data.sort(key=len)
 
-    if shuffle:
-        # shuffle sequence order before chunking if requested
-        perm = torch.randperm(len(spell_data)).tolist()
-        spell_data = [spell_data[i] for i in perm]
-
     batches = []
     for i in range(0, len(spell_data), batch_size):
         chunk = spell_data[i : i + batch_size]
         batches.append(create_lm_batch(chunk, pad_token_id=pad_token_id))
+
+    if shuffle:
+        # preserve in-batch length similarity while randomizing batch order each epoch
+        perm = torch.randperm(len(batches)).tolist()
+        batches = [batches[i] for i in perm]
 
     return batches

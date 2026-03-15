@@ -5,6 +5,7 @@ import math
 from src.embeddings import get_sinusoidal_positional_embeddings, TokenEmbedding
 from src.block import TransformerBlock
 from src.masks import make_causal_mask, make_padding_mask, combine_masks
+from src.word_tokenizer import decode_tokens_words, encode_text_words
 
 
 class SpellforgeTransformer(torch.nn.Module):
@@ -192,13 +193,29 @@ class SpellforgeTransformer(torch.nn.Module):
             return logits, loss
         return logits
     
-    def forward_lm_batch(self, input_ids, target_ids):
+    def forward_lm_batch(self, input_ids, target_ids, eos_weight=1.0):
         """
-        Forward pass for language model batches from your lm_data.py
+        Forward pass for language model batches with EOS token weighting
+        
+        PROBLEM AFTER EOS WEIGHTING:
+        ============================
+        ISSUE: Even with 20x EOS weight, model still never generates EOS tokens during inference
+        
+        ROOT CAUSE DISCOVERED: Data Format Mismatch
+        - Training data had: "Well >>>\n\n\n<EOS>" (EOS after newlines)
+        - Generation expected: "Well >>><EOS>" (EOS immediately after)
+        - Model correctly learned the training pattern, but it didn't match generation expectation
+        
+        SOLUTION: Fixed Data Format in preprocessing.py
+        - Removed extra newlines between spells
+        - Now training data has: "Well >>><EOS>" (immediate EOS)
+        - This matches generation expectation exactly
+        - Simple EOS weighting should now be sufficient
         
         Args:
             input_ids: [batch_size, seq_len-1] - input tokens
             target_ids: [batch_size, seq_len-1] - target tokens (shifted)
+            eos_weight: float - weight multiplier for EOS tokens (default 1.0 = no weighting)
         
         Returns:
             loss: scalar tensor - cross-entropy loss
@@ -211,13 +228,25 @@ class SpellforgeTransformer(torch.nn.Module):
         flat_logits = logits.view(-1, self.vocab_size)  # [batch_size*(seq_len-1), vocab_size]
         flat_targets = target_ids.view(-1)  # [batch_size*(seq_len-1)]
         
-        # compute cross-entropy loss (ignores padding tokens)
-        loss = F.cross_entropy(
-            flat_logits,
-            flat_targets,
-            ignore_index=self.pad_token_id,
-            reduction='mean'
-        )
+        if eos_weight > 1.0:
+            # Use weighted loss to emphasize EOS tokens
+            # Create weight tensor - most tokens get weight 1.0, EOS gets higher weight
+            weights = torch.ones_like(flat_targets, dtype=torch.float)
+            weights[flat_targets == 2] = eos_weight  # EOS token (ID=2) gets higher weight
+            weights[flat_targets == 0] = 0.0  # PAD tokens get zero weight (ignored)
+            
+            # Compute loss manually with weights
+            loss_fn = torch.nn.CrossEntropyLoss(reduction='none')
+            losses = loss_fn(flat_logits, flat_targets)
+            loss = (losses * weights).sum() / weights.sum()
+        else:
+            # Standard cross-entropy loss
+            loss = F.cross_entropy(
+                flat_logits,
+                flat_targets,
+                ignore_index=self.pad_token_id,
+                reduction='mean'
+            )
         
         return loss, logits
     
@@ -280,7 +309,37 @@ class SpellforgeTransformer(torch.nn.Module):
                 # get logits for the last position (next token prediction)
                 next_token_logits = logits[:, -1, :]  # [1, vocab_size]
                 
-                # apply temperature scaling
+                # EOS PATTERN DETECTION: Temporarily disabled for word-level tokenization testing
+                # if current_len >= 50:  # Only after generating substantial content
+                #     # Get recent tokens to build text context
+                #     recent_tokens = generated_ids[0, -15:].tolist() if current_len >= 15 else generated_ids[0, :].tolist()
+                #     
+                #     # Convert recent tokens to text for pattern matching
+                #     recent_chars = []
+                #     for token_id in recent_tokens:
+                #         if token_id < self.vocab_size:  # Valid token ID
+                #             # Use ASCII approximation for quick pattern detection
+                #             if 32 <= token_id <= 126:  # Printable ASCII range
+                #                 recent_chars.append(chr(token_id))
+                #     
+                #     recent_text = ''.join(recent_chars[-10:])  # Last ~10 characters
+                #     
+                #     # Check for spell ending patterns
+                #     ending_indicators = ['May it', 'Serve', 'You', 'Well', '>>']
+                #     pattern_found = any(indicator in recent_text for indicator in ending_indicators)
+                #     
+                #     # Also check for the >>> token pattern
+                #     if current_len >= 3:
+                #         last_three = generated_ids[0, -3:].tolist()
+                #         if last_three == [17, 17, 17]:  # >>> pattern
+                #             pattern_found = True
+                #     
+                #     if pattern_found:
+                #         # Boost EOS token probability
+                #         next_token_logits[0, eos_token_id] += 15.0
+                #         print(f"Spell ending pattern detected! Boosting EOS...")
+                
+                # Apply temperature scaling
                 if temperature != 1.0:
                     next_token_logits = next_token_logits / temperature
                 
@@ -325,30 +384,28 @@ class SpellforgeTransformer(torch.nn.Module):
         
         return generated_ids
     
-    def prepare_generation_prompt(self, text_prompt="", charToId=None, bos_token_id=1):
+    def prepare_generation_prompt(self, text_prompt="", token_to_id=None, bos_token_id=1):
         """
         Helper method to prepare prompts for generation from text
         
         Args:
             text_prompt: string to use as prompt (e.g., "<<< New Spell Forged >>>")
-            charToId: character to ID mapping from your tokenizer
+            token_to_id: token-to-ID mapping from the tokenizer
             bos_token_id: BOS token ID
         
         Returns:
             prompt_ids: [1, prompt_len] tensor ready for generation
         """
-        if charToId is None:
+        if token_to_id is None:
             # return just BOS token if no vocab provided
             return torch.tensor([[bos_token_id]], dtype=torch.long)
-        
-        # encode text prompt
-        prompt_tokens = [bos_token_id]
-        for char in text_prompt:
-            if char in charToId:
-                prompt_tokens.append(charToId[char])
-            else:
-                prompt_tokens.append(charToId.get("<UNK>", 3))  # fallback to <UNK>
-        
+
+        prompt_tokens = encode_text_words(
+            text_prompt,
+            token_to_id,
+            add_bos=True,
+            add_eos=False,
+        )
         return torch.tensor([prompt_tokens], dtype=torch.long)
     
     def get_num_params(self):
@@ -380,34 +437,23 @@ class SpellforgeTransformer(torch.nn.Module):
         optimizer = torch.optim.AdamW(optimizer_groups, lr=learning_rate)
         return optimizer
     
-    def decode_generation(self, generated_ids, idToChar=None, skip_special_tokens=True):
+    def decode_generation(self, generated_ids, id_to_token=None, skip_special_tokens=True):
         """
         Helper method to decode generated token IDs back to text
         
         Args:
             generated_ids: [1, seq_len] tensor from generation
-            idToChar: ID to character mapping from your tokenizer
+            id_to_token: ID-to-token mapping from the tokenizer
             skip_special_tokens: whether to skip <BOS>, <EOS>, <PAD> tokens
         
         Returns:
             decoded_text: string representation of generated tokens
         """
-        if idToChar is None:
+        if id_to_token is None:
             return f"Token IDs: {generated_ids.squeeze(0).tolist()}"
-        
-        # convert to list and decode
+
         token_ids = generated_ids.squeeze(0).tolist()
-        
-        decoded_chars = []
-        special_tokens = {0, 1, 2, 3}  # <PAD>, <BOS>, <EOS>, <UNK>
-        
-        for token_id in token_ids:
-            if skip_special_tokens and token_id in special_tokens:
-                continue
-            
-            if token_id < len(idToChar):
-                decoded_chars.append(idToChar[token_id])
-            else:
-                decoded_chars.append(f"<UNK:{token_id}>")
-        
-        return "".join(decoded_chars)
+        if not skip_special_tokens:
+            return " ".join(id_to_token.get(token_id, f"<UNK:{token_id}>") for token_id in token_ids)
+
+        return decode_tokens_words(token_ids, id_to_token)

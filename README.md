@@ -1,36 +1,39 @@
 # Spellforge
 
-A D&D spell preprocessing and tokenization pipeline built with character-level encoding.
+A D&D spell preprocessing, tokenization, and transformer training pipeline built around word-level tokens.
 
 ## Project Overview
 
-Spellforge processes D&D spell data from CSV format, preprocesses the text, and builds a character-level tokenizer vocabulary for machine learning applications.
+Spellforge processes D&D spell data from CSV format, preprocesses it into a consistent spell template, builds a word-level vocabulary from the training split, and trains an autoregressive transformer to generate new spells.
 
 ## Current Progress
 
-**Implemented:**
-- Spell preprocessing pipeline that reads from CSV and saves to text format
-- Character-level vocabulary builder with character-to-ID and ID-to-character mappings
-- Spell loading and encoding system
-- Main pipeline orchestration with 4-step process:
-  1. Preprocess spells from CSV to text file
-  2. Build vocabulary from preprocessed text
-  3. Load spells and encode using vocabulary
-  4. Display sample encoded spells
+Implemented:
+- Spell preprocessing from CSV to formatted text blocks
+- Train/validation/test splitting before vocabulary construction to avoid leakage
+- Word-level vocabulary builder with special tokens `<PAD>`, `<BOS>`, `<EOS>`, and `<UNK>`
+- Word-level spell encoding for language-model training
+- Transformer language model, training loop, and evaluation scripts
 
 ## Project Structure
 
-```
+```text
 Spellforge/
-├── main.py                 # Main pipeline entry point
-├── src/
-│   ├── preprocessing.py    # Spell preprocessing logic
-│   ├── tokenizer.py        # Vocabulary building and encoding
-│   └── __init__.py
-├── dnd-spells.csv         # Input spell data
-├── spells.txt             # Generated preprocessed spells
-└── README.md              # This file
+|-- main.py
+|-- src/
+|   |-- preprocessing.py
+|   |-- word_tokenizer.py
+|   |-- tokenizer.py
+|   |-- lm_data.py
+|   |-- model.py
+|   |-- simple_train.py
+|   `-- ...
+|-- dnd-spells.csv
+|-- spells.txt
+`-- tokenizer_vocab.json
 ```
+
+`src/tokenizer.py` is now a compatibility layer that forwards to the word tokenizer.
 
 ## How to Run
 
@@ -39,17 +42,16 @@ python main.py
 ```
 
 This will:
-- Process spells from the CSV file
-- Generate vocabulary mappings
-- Encode all spells using character-level tokens
-- Display a sample encoded spell
+- preprocess spells from the CSV file
+- split the dataset
+- build a word vocabulary from the training split
+- encode spells into token IDs
+- create LM batches
+- train the transformer
 
 ## Technical Details
 
-- Character-level tokenization approach
-- Vocabulary built from all unique characters in preprocessed spells
-- Spells encoded as sequences of character IDs
-
----
-
-Last updated: February 5, 2026
+- Word-level tokenization with punctuation kept as separate tokens
+- Vocabulary built from training data only
+- Spells encoded as token ID sequences with BOS/EOS boundaries
+- Causal transformer trained for next-token prediction

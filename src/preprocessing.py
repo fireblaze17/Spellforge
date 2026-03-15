@@ -4,7 +4,6 @@
 
 import pandas as pd
 import numpy as np
-import torch
 import re
 
 def preprocess_and_save(csv_path, output_path):
@@ -34,10 +33,10 @@ def preprocess_and_save(csv_path, output_path):
     
     # For loop to format spells and then append a string with the spells to the list
     for row in data.itertuples(index=False):
-        # Clean description: remove newlines, handle carriage returns, convert semicolons to periods
-        cleaned_desc = row.description.replace('\n', ' ').replace('\r', '').replace(';', '.')
-        # Split by sentence boundaries (period followed by space and capital letter) and take first 2
-        desc_sentences = '. '.join(re.split(r'\.\s+(?=[A-Z])', cleaned_desc)[:2]) + '.'
+        # Clean description and keep only the first two sentences.
+        cleaned_desc = re.sub(r"\s+", " ", row.description.replace("\r", " ").replace("\n", " ")).strip()
+        desc_sentences = re.split(r'(?<=[.!?])\s+(?=[A-Z])', cleaned_desc)
+        truncated_desc = " ".join(desc_sentences[:2]).strip()
         
         spell_str = f'''<<< New Spell Forged >>>
   Name: {row.name}
@@ -45,13 +44,25 @@ def preprocess_and_save(csv_path, output_path):
   School: {row.school}
   Range: {row.range}
   Duration: {row.duration}
-  Description: {desc_sentences}
-<<< May it Serve You Well >>>
-'''
+  Description: {truncated_desc}
+<<< May it Serve You Well >>>'''
         formatted_spells.append(spell_str)
     
-    # Appending to list with two newlines between each spell block
-    finalSpells = "\n\n".join(formatted_spells)
+    # Join spells so each spell ends with ">>>" and next starts with "<<<"
+    # This creates the pattern: ">>><<< New Spell..." 
+    # After tokenization: ">>><EOS><BOS><<< New Spell..."
+    # This puts EOS immediately after >>> without separating newlines
+    formatted_spells_no_trail = []
+    for i, spell in enumerate(formatted_spells):
+        if i < len(formatted_spells) - 1:
+            # For all spells except the last, remove any trailing newline and add direct connection
+            spell_clean = spell.rstrip('\n')
+            formatted_spells_no_trail.append(spell_clean)
+        else:
+            # Last spell keeps its format
+            formatted_spells_no_trail.append(spell)
+    
+    finalSpells = "".join(formatted_spells_no_trail)
     # Writing to text file
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(finalSpells)
