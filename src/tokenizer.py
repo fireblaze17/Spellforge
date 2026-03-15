@@ -1,5 +1,6 @@
 # Building a character level tokenizer
 # From what has been gathered, given limited data this is the best (also easiest to understand) implementation
+import json
 
 def build_vocabulary(text):
     """
@@ -60,3 +61,34 @@ def encode_spells(spells, charToId):
         encodedList.append(tempList)
     
     return encodedList
+
+
+def save_vocabulary(charToId, idToChar, output_path):
+    """
+    Save tokenizer mappings to disk so training/inference can reuse the same IDs.
+    """
+    if not isinstance(charToId, dict):
+        raise TypeError("charToId must be a dictionary")
+    if not isinstance(idToChar, list):
+        raise TypeError("idToChar must be a list")
+
+    payload = {
+        "charToId": charToId,
+        "idToChar": idToChar,
+    }
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+
+def load_vocabulary(input_path):
+    """
+    Load tokenizer mappings that were saved earlier.
+    Returns (charToId, idToChar).
+    """
+    with open(input_path, "r", encoding="utf-8") as f:
+        payload = json.load(f)
+
+    if "charToId" not in payload or "idToChar" not in payload:
+        raise ValueError("vocabulary file must contain charToId and idToChar")
+
+    return payload["charToId"], payload["idToChar"]
