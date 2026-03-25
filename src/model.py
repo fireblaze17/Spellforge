@@ -1,6 +1,8 @@
+import math
+from typing import Optional
+
 import torch
 import torch.nn.functional as F
-import math
 
 from src.embeddings import get_sinusoidal_positional_embeddings, TokenEmbedding
 from src.block import TransformerBlock
@@ -8,9 +10,9 @@ from src.masks import make_causal_mask, make_padding_mask, combine_masks
 from src.word_tokenizer import decode_tokens_words, encode_text_words
 
 
-class SpellforgeTransformer(torch.nn.Module):
+class RecipeTransformer(torch.nn.Module):
     """
-    Complete transformer language model for D&D spell generation
+    Complete transformer language model for structured text generation.
     
     Architecture:
     1. Token embeddings + positional encodings
@@ -32,7 +34,9 @@ class SpellforgeTransformer(torch.nn.Module):
         dropout=0.1,
         activation="gelu",
         bias=True,
-        pad_token_id=0
+        pad_token_id=0,
+        eos_token_id=2,
+        bos_token_id=1,
     ):
         super().__init__()
         
@@ -55,6 +59,8 @@ class SpellforgeTransformer(torch.nn.Module):
         self.num_heads = num_heads
         self.max_seq_len = max_seq_len
         self.pad_token_id = pad_token_id
+        self.eos_token_id = eos_token_id
+        self.bos_token_id = bos_token_id
         
         # token embeddings: convert token IDs to dense vectors using your TokenEmbedding class
         # each token ID gets mapped to a d_model dimensional vector
@@ -195,22 +201,7 @@ class SpellforgeTransformer(torch.nn.Module):
     
     def forward_lm_batch(self, input_ids, target_ids, eos_weight=1.0):
         """
-        Forward pass for language model batches with EOS token weighting
-        
-        PROBLEM AFTER EOS WEIGHTING:
-        ============================
-        ISSUE: Even with 20x EOS weight, model still never generates EOS tokens during inference
-        
-        ROOT CAUSE DISCOVERED: Data Format Mismatch
-        - Training data had: "Well >>>\n\n\n<EOS>" (EOS after newlines)
-        - Generation expected: "Well >>><EOS>" (EOS immediately after)
-        - Model correctly learned the training pattern, but it didn't match generation expectation
-        
-        SOLUTION: Fixed Data Format in preprocessing.py
-        - Removed extra newlines between spells
-        - Now training data has: "Well >>><EOS>" (immediate EOS)
-        - This matches generation expectation exactly
-        - Simple EOS weighting should now be sufficient
+        Forward pass for language model batches with optional EOS weighting.
         
         Args:
             input_ids: [batch_size, seq_len-1] - input tokens
@@ -229,13 +220,10 @@ class SpellforgeTransformer(torch.nn.Module):
         flat_targets = target_ids.view(-1)  # [batch_size*(seq_len-1)]
         
         if eos_weight > 1.0:
-            # Use weighted loss to emphasize EOS tokens
-            # Create weight tensor - most tokens get weight 1.0, EOS gets higher weight
             weights = torch.ones_like(flat_targets, dtype=torch.float)
-            weights[flat_targets == 2] = eos_weight  # EOS token (ID=2) gets higher weight
-            weights[flat_targets == 0] = 0.0  # PAD tokens get zero weight (ignored)
-            
-            # Compute loss manually with weights
+            weights[flat_targets == self.eos_token_id] = eos_weight
+            weights[flat_targets == self.pad_token_id] = 0.0
+
             loss_fn = torch.nn.CrossEntropyLoss(reduction='none')
             losses = loss_fn(flat_logits, flat_targets)
             loss = (losses * weights).sum() / weights.sum()
@@ -257,13 +245,13 @@ class SpellforgeTransformer(torch.nn.Module):
         temperature=1.0, 
         top_k=None, 
         top_p=None,
+        repetition_penalty=1.0,
         do_sample=True,
-        eos_token_id=2,  # <EOS> token from your tokenizer
-        bos_token_id=1,  # <BOS> token from your tokenizer
-        pad_token_id=0   # <PAD> token from your tokenizer
+        eos_token_id: Optional[int] = None,
+        bos_token_id: Optional[int] = None,
     ):
         """
-        Generate new spell text autoregressively
+        Generate new text autoregressively
         
         Args:
             prompt_ids: [1, prompt_len] or [prompt_len] - starting tokens
@@ -271,14 +259,16 @@ class SpellforgeTransformer(torch.nn.Module):
             temperature: sampling temperature (higher = more random)
             top_k: keep only top k tokens for sampling
             top_p: nucleus sampling - keep tokens with cumulative prob <= top_p
+            repetition_penalty: penalize tokens already generated (>1.0 reduces repetition)
             do_sample: if False, use greedy decoding
             eos_token_id: stop generation when this token is generated
-            pad_token_id: padding token ID
         
         Returns:
             generated_ids: [1, total_len] - prompt + generated tokens
         """
         self.eval()  # set to evaluation mode
+        eos_token_id = self.eos_token_id if eos_token_id is None else eos_token_id
+        bos_token_id = self.bos_token_id if bos_token_id is None else bos_token_id
         
         # ensure prompt_ids is 2D
         if prompt_ids.ndim == 1:
@@ -308,36 +298,17 @@ class SpellforgeTransformer(torch.nn.Module):
                 
                 # get logits for the last position (next token prediction)
                 next_token_logits = logits[:, -1, :]  # [1, vocab_size]
-                
-                # EOS PATTERN DETECTION: Temporarily disabled for word-level tokenization testing
-                # if current_len >= 50:  # Only after generating substantial content
-                #     # Get recent tokens to build text context
-                #     recent_tokens = generated_ids[0, -15:].tolist() if current_len >= 15 else generated_ids[0, :].tolist()
-                #     
-                #     # Convert recent tokens to text for pattern matching
-                #     recent_chars = []
-                #     for token_id in recent_tokens:
-                #         if token_id < self.vocab_size:  # Valid token ID
-                #             # Use ASCII approximation for quick pattern detection
-                #             if 32 <= token_id <= 126:  # Printable ASCII range
-                #                 recent_chars.append(chr(token_id))
-                #     
-                #     recent_text = ''.join(recent_chars[-10:])  # Last ~10 characters
-                #     
-                #     # Check for spell ending patterns
-                #     ending_indicators = ['May it', 'Serve', 'You', 'Well', '>>']
-                #     pattern_found = any(indicator in recent_text for indicator in ending_indicators)
-                #     
-                #     # Also check for the >>> token pattern
-                #     if current_len >= 3:
-                #         last_three = generated_ids[0, -3:].tolist()
-                #         if last_three == [17, 17, 17]:  # >>> pattern
-                #             pattern_found = True
-                #     
-                #     if pattern_found:
-                #         # Boost EOS token probability
-                #         next_token_logits[0, eos_token_id] += 15.0
-                #         print(f"Spell ending pattern detected! Boosting EOS...")
+
+                if repetition_penalty > 1.0:
+                    # Penalize tokens that already appeared in the generated sequence.
+                    seen_token_ids = torch.unique(generated_ids[0])
+                    seen_logits = next_token_logits[0, seen_token_ids]
+                    penalized_logits = torch.where(
+                        seen_logits > 0,
+                        seen_logits / repetition_penalty,
+                        seen_logits * repetition_penalty,
+                    )
+                    next_token_logits[0, seen_token_ids] = penalized_logits
                 
                 # Apply temperature scaling
                 if temperature != 1.0:
@@ -345,6 +316,7 @@ class SpellforgeTransformer(torch.nn.Module):
                 
                 # apply top-k filtering
                 if top_k is not None:
+                    top_k = min(top_k, next_token_logits.shape[-1])
                     # keep only top k tokens
                     top_k_logits, top_k_indices = torch.topk(next_token_logits, top_k)
                     # set all other logits to -inf
@@ -389,7 +361,7 @@ class SpellforgeTransformer(torch.nn.Module):
         Helper method to prepare prompts for generation from text
         
         Args:
-            text_prompt: string to use as prompt (e.g., "<<< New Spell Forged >>>")
+            text_prompt: string to use as prompt (e.g., "<<< New Recipe Forged >>>")
             token_to_id: token-to-ID mapping from the tokenizer
             bos_token_id: BOS token ID
         

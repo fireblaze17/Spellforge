@@ -59,27 +59,27 @@ def create_lm_batch(encoded_batch, pad_token_id=0):
     return input_ids, target_ids
 
 
-def create_lm_batches(encoded_spells, batch_size, pad_token_id=0, sort_by_length=True, shuffle=True):
+def create_recipe_lm_batches(encoded_recipes, batch_size, pad_token_id=0, sort_by_length=True, shuffle=True):
     """
     Build many LM batches.
     Returns a list of tuples: (input_ids, target_ids).
     """
-    if not isinstance(encoded_spells, list):
-        raise TypeError("encoded_spells must be a list")
-    if len(encoded_spells) == 0:
-        raise ValueError("encoded_spells cannot be empty")
+    if not isinstance(encoded_recipes, list):
+        raise TypeError("encoded_recipes must be a list")
+    if len(encoded_recipes) == 0:
+        raise ValueError("encoded_recipes cannot be empty")
     if not isinstance(batch_size, int):
         raise TypeError("batch_size must be an integer")
     if batch_size <= 0:
         raise ValueError("batch_size must be > 0")
 
-    spell_data = [seq.copy() for seq in encoded_spells]
+    recipe_data = [seq.copy() for seq in encoded_recipes]
     if sort_by_length:
-        spell_data.sort(key=len)
+        recipe_data.sort(key=len)
 
     batches = []
-    for i in range(0, len(spell_data), batch_size):
-        chunk = spell_data[i : i + batch_size]
+    for i in range(0, len(recipe_data), batch_size):
+        chunk = recipe_data[i : i + batch_size]
         batches.append(create_lm_batch(chunk, pad_token_id=pad_token_id))
 
     if shuffle:
@@ -88,3 +88,14 @@ def create_lm_batches(encoded_spells, batch_size, pad_token_id=0, sort_by_length
         batches = [batches[i] for i in perm]
 
     return batches
+
+
+def create_lm_batches(encoded_recipes, batch_size, pad_token_id=0, sort_by_length=True, shuffle=True):
+    """Compatibility wrapper for older call sites."""
+    return create_recipe_lm_batches(
+        encoded_recipes,
+        batch_size,
+        pad_token_id=pad_token_id,
+        sort_by_length=sort_by_length,
+        shuffle=shuffle,
+    )

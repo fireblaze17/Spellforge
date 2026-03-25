@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import torch
 import math
 from tqdm import tqdm
@@ -14,15 +16,21 @@ def simple_train(
     epochs=30,
     learning_rate=1.5e-4,
     device='auto',
-    eos_weight=25.0
+    eos_weight=25.0,
+    output_dir="artifacts/models",
+    sample_every_n_epochs=4,
+    checkpoint_every_n_epochs=5,
 ):
     """
-    Improved training loop building on the successful 2.4 perplexity approach
+    Train the recipe language model and save checkpoints to a dedicated artifact directory.
     """
     # Setup device
     if device == 'auto':
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    
+
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     model.to(device)
     print(f"Training on {device}")
     
@@ -36,6 +44,7 @@ def simple_train(
     eos_id = token_to_id.get('<EOS>', 2)
     
     best_val_loss = float('inf')
+    best_model_path = output_dir / "best_model.pt"
     
     for epoch in range(epochs):
         # Training
@@ -99,26 +108,32 @@ def simple_train(
         # Save best model
         if avg_val_loss < best_val_loss:
             best_val_loss = avg_val_loss
-            torch.save(model.state_dict(), "best_model.pt")
+            torch.save(model.state_dict(), best_model_path)
             print(f"New best model saved: {avg_val_loss:.3f} validation loss")
         
         # Generate sample every few epochs
-        if epoch % 4 == 0 or epoch == epochs - 1:
+        if epoch % sample_every_n_epochs == 0 or epoch == epochs - 1:
             sample = generate_simple_sample(model, token_to_id, id_to_token, device)
-            print(f"Sample spell:\n{sample}\n{'-'*60}")
+            print(f"Sample recipe:\n{sample}\n{'-'*60}")
         
         # Checkpoint saves
-        if epoch % 5 == 0:
-            torch.save(model.state_dict(), f"checkpoint_epoch_{epoch}.pt")
+        if epoch % checkpoint_every_n_epochs == 0:
+            torch.save(model.state_dict(), output_dir / f"checkpoint_epoch_{epoch}.pt")
     
     # Save final model
-    torch.save(model.state_dict(), f"final_model_epoch_{epochs}.pt")
-    print(f"Saved final model: final_model_epoch_{epochs}.pt")
+    final_model_path = output_dir / f"final_model_epoch_{epochs}.pt"
+    torch.save(model.state_dict(), final_model_path)
+    print(f"Saved final model: {final_model_path}")
     print(f"Training complete! Best validation loss: {best_val_loss:.3f}")
+    return {
+        "best_model_path": str(best_model_path),
+        "final_model_path": str(final_model_path),
+        "best_val_loss": best_val_loss,
+    }
 
 
 def generate_simple_sample(model, token_to_id, id_to_token, device):
-    """Generate a sample with better parameters"""
+    """Generate a sample with better parameters."""
     model.eval()
     
     # Start with BOS token
@@ -127,9 +142,10 @@ def generate_simple_sample(model, token_to_id, id_to_token, device):
     with torch.no_grad():
         generated = model.generate(
             prompt_ids, 
-            max_new_tokens=600,  # More tokens for complete spells
+            max_new_tokens=600,  # More tokens for complete recipes
             temperature=0.8,     # Balanced creativity
-            top_p=0.9,          # Good nucleus sampling
+            top_k=40,            # Keep generation focused on likely next tokens
+            repetition_penalty=1.15,  # Light penalty to reduce loops and duplicates
             do_sample=True,
             eos_token_id=token_to_id.get('<EOS>', 2)
         )

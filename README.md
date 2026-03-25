@@ -1,57 +1,71 @@
 # Spellforge
 
-A D&D spell preprocessing, tokenization, and transformer training pipeline built around word-level tokens.
+Spellforge is a recipe generator built on a custom decoder-only transformer. The active workflow preprocesses recipes from `RAW_recipes.csv`, builds a structure-aware BPE vocabulary from the training split only, trains an autoregressive model, and evaluates recipe-format generation quality.
 
-## Project Overview
-
-Spellforge processes D&D spell data from CSV format, preprocesses it into a consistent spell template, builds a word-level vocabulary from the training split, and trains an autoregressive transformer to generate new spells.
-
-## Current Progress
-
-Implemented:
-- Spell preprocessing from CSV to formatted text blocks
-- Train/validation/test splitting before vocabulary construction to avoid leakage
-- Word-level vocabulary builder with special tokens `<PAD>`, `<BOS>`, `<EOS>`, and `<UNK>`
-- Word-level spell encoding for language-model training
-- Transformer language model, training loop, and evaluation scripts
-
-## Project Structure
+## Repository Layout
 
 ```text
 Spellforge/
 |-- main.py
-|-- src/
-|   |-- preprocessing.py
-|   |-- word_tokenizer.py
-|   |-- tokenizer.py
-|   |-- lm_data.py
-|   |-- model.py
-|   |-- simple_train.py
-|   `-- ...
-|-- dnd-spells.csv
-|-- spells.txt
-`-- tokenizer_vocab.json
+|-- preprocess_recipes.py
+|-- evaluate_model.py
+|-- data/
+|   |-- raw/
+|   `-- processed/
+|-- artifacts/
+|   |-- models/
+|   `-- tokenizer/
+`-- src/
+    |-- config.py
+    |-- preprocessing.py
+    |-- word_tokenizer.py
+    |-- lm_data.py
+    |-- model.py
+    |-- simple_train.py
+    `-- evaluation.py
 ```
 
-`src/tokenizer.py` is now a compatibility layer that forwards to the word tokenizer.
+Legacy root-level files such as `RAW_recipes.csv`, `recipes.txt`, and `tokenizer_vocab.json` are still supported as fallbacks, but new outputs are written under `data/processed/` and `artifacts/`.
 
-## How to Run
+## Active Workflow
+
+`preprocess_recipes.py`
+- Preprocesses raw recipes into the canonical text format used for language-model training.
+
+`main.py`
+- Preprocesses recipes
+- Splits train/validation/test
+- Builds the BPE vocabulary from the training split only
+- Encodes recipes into token IDs
+- Trains the recipe model
+- Evaluates on the held-out test split
+
+`evaluate_model.py`
+- Loads a trained checkpoint
+- Generates sample recipes
+- Reports format-compliance metrics
+
+## Setup
+
+Create a Python environment with the packages used by the repo:
 
 ```bash
-python main.py
+pip install torch pandas tqdm
 ```
 
-This will:
-- preprocess spells from the CSV file
-- split the dataset
-- build a word vocabulary from the training split
-- encode spells into token IDs
-- create LM batches
-- train the transformer
+Place the dataset at `data/raw/RAW_recipes.csv`. If you still have it at the repo root as `RAW_recipes.csv`, the code will use that as a fallback.
 
-## Technical Details
+## Commands
 
-- Word-level tokenization with punctuation kept as separate tokens
-- Vocabulary built from training data only
-- Spells encoded as token ID sequences with BOS/EOS boundaries
-- Causal transformer trained for next-token prediction
+```bash
+python preprocess_recipes.py
+python main.py
+python evaluate_model.py
+```
+
+## Current Model Design
+
+- Structure-aware BPE tokenization with recipe boundary markers and field labels preserved
+- Vocabulary built from the training split only
+- Decoder-only transformer with causal masking
+- AdamW optimization, cosine learning-rate decay, checkpointing, and sample generation during training

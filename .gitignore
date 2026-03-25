@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pt
+
+data/processed/
+artifacts/
+
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
