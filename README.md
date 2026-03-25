@@ -1,11 +1,11 @@
-# Spellforge
+# RecipeForge
 
-Spellforge is a recipe generator built on a custom decoder-only transformer. The active workflow preprocesses recipes from `RAW_recipes.csv`, builds a structure-aware BPE vocabulary from the training split only, trains an autoregressive model, and evaluates recipe-format generation quality.
+RecipeForge is a recipe generator built on a custom decoder-only transformer. The active workflow preprocesses recipes from `RAW_recipes.csv`, builds a structure-aware BPE vocabulary from the training split only, trains an autoregressive model, and evaluates recipe-format generation quality.
 
 ## Repository Layout
 
 ```text
-Spellforge/
+RecipeForge/
 |-- main.py
 |-- preprocess_recipes.py
 |-- evaluate_model.py
